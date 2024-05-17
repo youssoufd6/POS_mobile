@@ -1,6 +1,7 @@
 import { Image, View, Text } from "react-native"
 import tw from 'twrnc';
 
+
 export const  ItemPanier = ({panier}) =>{
     //console.log(panier)
 

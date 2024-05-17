@@ -96,7 +96,7 @@ function App(){
       
       <NavigationContainer>
         <Stack.Navigator>
-          {!isLoggedIn ?
+          {isLoggedIn ?
           <>
           <Stack.Screen name="splash" component={Splash} options={{ headerShown: false }}/>
           <Stack.Screen name="vente" component={Vente} options={{ headerShown: false }}/>

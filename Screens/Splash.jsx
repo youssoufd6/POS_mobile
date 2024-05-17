@@ -23,8 +23,8 @@ export const Splash = ()=> {
                 navigation.navigate('vente')
 
             }else{
-               // navigation.navigate('login')
-               navigation.navigate('vente')
+               navigation.navigate('login')
+               //navigation.navigate('vente')
 
             }
         },3000)

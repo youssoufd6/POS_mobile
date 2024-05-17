@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ScrollView, Text, View, TouchableOpacity, Image, TextInput } from 'react-native';
 import tw from 'twrnc';
 
+
 const Listeproducts = ({ products, menuActive, quantityACommander, incrementeQuantity, decrementeQuantity, updateQuantity }) => {
 
 
