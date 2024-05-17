@@ -38,3 +38,5 @@ target 'POS' do
     )
   end
 end
+pod 'rn-fetch-blob',
+    :path => '../node_modules/rn-fetch-blob'
